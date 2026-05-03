@@ -70,10 +70,16 @@ git clone https://github.com/yzfly/CTO-Skills.git
 cp -r CTO-Skills/skills/cto .claude/skills/
 ```
 
-### 方式三：手动安装
+### 方式三：下载 .skill 安装包（无需 git）
 
-1. 下载 [最新 Release](https://github.com/yzfly/CTO-Skills/releases)
-2. 解压 `skills/cto/` 目录到 `~/.claude/skills/`
+1. 去 [Releases 页面](https://github.com/yzfly/CTO-Skills/releases/latest) 下载最新的 `cto.skill` 文件
+2. 解压到 Claude Code skills 目录：
+
+```bash
+unzip cto.skill -d ~/.claude/skills/
+```
+
+`.skill` 文件本质是 zip 压缩包，解压后会得到 `cto/` 目录，正好放在 `~/.claude/skills/` 下。
 
 ### 验证安装
 
