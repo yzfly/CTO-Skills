@@ -1,11 +1,8 @@
 <div align="center">
 
-# CTO Skill
+<img src="assets/hero.svg" alt="CTO Skill — 你不缺 idea，你缺一个把 idea 想清楚的人" width="100%">
 
-### 你不缺 idea。
-### 你缺一个把 idea 想清楚的人。
-
-一场对话，把脑子里那个「我想做个 XX」的想法，变成 coding agent 可以直接开工的完整设计方案。
+<br/>
 
 [![Latest Release](https://img.shields.io/github/v/release/yzfly/CTO-Skills?color=brightgreen)](https://github.com/yzfly/CTO-Skills/releases/latest)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
