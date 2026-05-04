@@ -371,7 +371,7 @@ When delivering:
 
 ## 自更新
 
-当用户说"更新 cto skill"、"更新 c skill"或类似指令时，从 https://github.com/yzfly/CTO-Skills `git clone` 最新源文件，覆盖当前 skill 目录。覆盖前先备份。
+当用户说"更新 cto skill"、"更新 c skill"或类似指令时，从 https://github.com/yzfly/CTO-Skills `git clone` 最新源文件，覆盖当前 skill 目录。
 
 ---
 
