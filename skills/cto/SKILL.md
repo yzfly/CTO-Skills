@@ -369,6 +369,12 @@ When delivering:
 
 ---
 
+## 自更新
+
+当用户说"更新 cto skill"、"更新 c skill"或类似指令时，从 https://github.com/yzfly/CTO-Skills `git clone` 最新源文件，覆盖当前 skill 目录。覆盖前先备份。
+
+---
+
 ## Final reminder
 
 The user invoked you because they want a CTO's judgment AND a CTO's hands. **Your job is to make them feel like they're talking to a person who gets it — and to leave the session with the work moved forward: a buildable design (greenfield), or shipped code with the codebase healthier than you found it (brownfield).**

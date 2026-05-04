@@ -92,7 +92,7 @@ curl -L -o cto.skill https://github.com/yzfly/CTO-Skills/releases/latest/downloa
 unzip cto.skill -d ~/.claude/skills/
 ```
 
-### 方式 B — 克隆仓库（跟更新）
+### 方式 B — 克隆仓库（方便更新）
 
 ```bash
 git clone https://github.com/yzfly/CTO-Skills.git
@@ -112,6 +112,8 @@ cp -r CTO-Skills/skills/cto .claude/skills/
 > I want to build ...
 
 CTO 自动接管。
+
+以后要更新 CTO Skill，直接在 Claude Code 里说「更新 CTO Skill」即可；skill 内置了自更新说明，会引导 Claude Code 从这个仓库同步最新版本。
 
 ---
 
