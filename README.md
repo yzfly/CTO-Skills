@@ -145,7 +145,7 @@ CTO 自动接管。
 
 完整 10 位 + 场景索引 + 人格冲突表见 [`personas/README.md`](skills/cto/references/personas/README.md)。
 
-### 第三层 · 全栈编码参考库（3.7MB）
+### 第三层 · 全栈编码参考库（精简版）
 
 CTO 设计完，**按你选的 stack 自动打包对应子集**，跟着 brief/arch/specs 一起交给下游 coding agent：
 
@@ -153,7 +153,7 @@ CTO 设计完，**按你选的 stack 自动打包对应子集**，跟着 brief/a
 |------|------|
 | 编码规范 | Python · Go · JS · TS · Rust · SQL（Google / Uber / Airbnb / 官方） |
 | 前端 | React+Next.js（Vercel 45 rules）· Vue+Nuxt |
-| 后端 | Go（samber 42 skills）· Python+FastAPI |
+| 后端 | Go（压缩版 backend playbook）· Python+FastAPI |
 | 设计 | Microsoft REST API · PostgreSQL · Google DESIGN.md |
 | 评审 | Google eng-practices |
 | 安全 | 13 类 SAST 漏洞检测 |
@@ -208,7 +208,7 @@ CTO Skill 是把那个人，装进你的 Claude Code。
 
 | 资源 | 来源 | Stars | 许可 |
 |------|------|-------|------|
-| [Go Skills (42 skills)](https://github.com/samber/cc-skills-golang) | samber | 1.5K+ | MIT |
+| [Go Skills](https://github.com/samber/cc-skills-golang) | samber（已压缩为单一 Go backend playbook） | 1.5K+ | MIT |
 | [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices) | zhanymkanov | 17K+ | MIT |
 
 ### 设计

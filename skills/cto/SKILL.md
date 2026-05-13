@@ -330,7 +330,7 @@ Seven categories, MECE:
 |----------|-----------|----------|
 | **编码规范** | `payload/standards/` | Python (Google), Go (Uber), JS (Airbnb), TS (Google), Rust (official), SQL |
 | **前端** | `payload/frontend/` | `react-nextjs/` (Vercel 45 rules), `vue-nuxt/` |
-| **后端** | `payload/backend/` | `golang/` (samber 42 skills), `python-fastapi/` |
+| **后端** | `payload/backend/` | `golang/` (compressed Go backend playbook), `python-fastapi/` |
 | **设计** | `payload/design/` | `api/` (Microsoft REST), `system/` (Google design.md), `database/` |
 | **评审** | `payload/review/` | Google code review + CL author guidelines |
 | **安全** | `payload/security/` | 13 SAST vulnerability detection skills |

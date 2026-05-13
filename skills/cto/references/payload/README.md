@@ -14,7 +14,7 @@ Files here are bundled, not read. The CTO uses `../runtime/stack-practices.md` a
 |-----------|--------|----------|
 | `standards/` | Google, Uber, Airbnb, official | Python, Go, JS, TS, Rust, SQL style guides |
 | `frontend/` | Vercel, Vue/Nuxt | `react-nextjs/`, `vue-nuxt/` |
-| `backend/` | samber, zhanymkanov | `golang/` (42 sub-skills), `python-fastapi/` |
+| `backend/` | samber, zhanymkanov | `golang/` (single compressed playbook), `python-fastapi/` |
 | `design/` | Microsoft, Google, PostgreSQL | `api/`, `database/`, `system/` |
 | `review/` | Google eng-practices | Code review (reviewer + author guides) |
 | `security/` | utkusen | 13 SAST vulnerability detection skills |
@@ -22,9 +22,9 @@ Files here are bundled, not read. The CTO uses `../runtime/stack-practices.md` a
 
 ## A note on nested `SKILL.md` files
 
-Several upstream sources (samber's Go skills, Vercel's React/Next.js rules) ship as Claude Code skills with their own `SKILL.md` files. We preserve the upstream directory structure for traceability and source fidelity.
+Some upstream sources (such as Vercel's React/Next.js rules) ship as Claude Code skills with their own `SKILL.md` files. Some agents ignore nested `SKILL.md` files, while installers and catalogs may still index them recursively. Keep nested `SKILL.md` files only when the payload truly needs to preserve a standalone upstream skill.
 
-**These nested `SKILL.md` files are not loaded by Claude Code as standalone skills.** They sit inside `payload/` as plain documentation. Claude Code's skill discovery only looks at `skills/<name>/SKILL.md` — anything deeper is invisible to the loader.
+Inside `payload/`, nested `SKILL.md` files should be treated as plain documentation unless the receiving tool explicitly supports recursive skill discovery.
 
 When a downstream coding agent receives the bundled `references/`, it should read these files as documentation, not invoke them as skills.
 

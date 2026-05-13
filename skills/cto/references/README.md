@@ -44,7 +44,7 @@ references/
 |----------|--------|--------------|
 | `standards/` | Google, Uber, Airbnb, official | Python, Go, JS, TS, Rust, SQL style guides |
 | `frontend/` | Vercel, Vue/Nuxt | React/Next.js (45 rules), Vue/Nuxt patterns |
-| `backend/` | samber, zhanymkanov | Go (42 skills), FastAPI best practices |
+| `backend/` | samber, zhanymkanov | compressed Go backend playbook, FastAPI best practices |
 | `design/` | Microsoft, Google, PostgreSQL | API design, schema design, system design |
 | `review/` | Google eng-practices | Code review (reviewer + author guides) |
 | `security/` | utkusen | 13 SAST vulnerability detection skills |

@@ -100,7 +100,7 @@ Source: `../payload/frontend/vue-nuxt/` (16 rule files covering Nuxt 3 / Vue 3 S
 
 ### Go (Golang)
 
-Source: `../payload/backend/golang/` (samber's 42 sub-skills, MIT). The collection is dense; below is the design-time digest.
+Source: `../payload/backend/golang/README.md` (compressed from samber's Go skills, MIT). The playbook is compact enough to bundle as one reference; below is the design-time digest.
 
 **Architectural patterns → `arch.md` §5**
 
@@ -302,7 +302,7 @@ When delivering the final artifacts, include this appendix in `arch.md`:
 > |-------|-----------|----------|
 > | React + Next.js | `references/frontend/react-nextjs/AGENTS.md` | Waterfalls > bundles > server perf |
 > | Vue + Nuxt | `references/frontend/vue-nuxt/` (read all 16 rule files) | Hydration > server boundary > stable keys |
-> | Go | `references/backend/golang/` (load relevant sub-skills) | Concurrency safety > error handling > observability |
+> | Go | `references/backend/golang/README.md` | Concurrency safety > error handling > observability |
 > | Python + FastAPI | `references/backend/python-fastapi/AGENTS.md` | Async-first > domain layout > Pydantic v2 |
 >
 > ### Cross-cutting (load when category applies)
